@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    color: pink;
+    font-size: 40px;
+}
+h2{
+    color: pink;
+    font-size: 30px;
+}
+main{
+    height: 70vh;
+}
+img{
+    border: 5px solid pink;
+    height: 80%;
+    width: 90%;
+}
+figure{
+    background-color: palevioletred;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+#fig1{
+    float: left;
+}
+#fig2{
+    float: right;
+}
+section{
+    clear: both;    
+}
+figcaption{
+    font-weight: bold;
+    font-size: 20px;
+    color: pink;
+    padding: 5px;
+}
+a{
+    color: pink;
+}
+a:hover{
+    color: palevioletred;
+}
+li{
+    list-style-type: none;
+    line-height: 1.5;
+}
+header{
+    background-color: palevioletred;
+}
+footer{
+    background-color: palevioletred;
+}
